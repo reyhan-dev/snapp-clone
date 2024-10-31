@@ -1,0 +1,1197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image {
+  width: 100px;
+  display: flex;
+  padding-bottom: 10px;
+}
+.nav {
+  display: flex;
+  padding-right: 180px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  width: 100%;
+  height: 150px;
+  position: sticky;
+  top: 0;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+body {
+  background-color: rgb(196, 196, 230);
+}
+.one {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  color: gray;
+  font-size: large;
+}
+.two {
+  display: flex;
+}
+.down {
+  padding-bottom: 10px;
+}
+.tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+.first {
+  width: 270px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+.pro {
+  color: #fff;
+  background-color: rgb(64, 125, 151);
+  height: 40px;
+  width: 45px;
+  padding-left: 5px;
+  padding-top: 7px;
+  align-items: center;
+  border-radius: 15px;
+}
+p {
+  color: grey;
+}
+.second {
+  width: 270px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+.internet {
+  height: 40px;
+  width: 45px;
+  padding-left: 7px;
+  padding-top: 7px;
+  align-items: center;
+  border-radius: 15px;
+  background-color: lightseagreen;
+}
+.third {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 10px;
+  padding-right: 35px;
+  flex-direction: row-reverse;
+  width: 270px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.berger {
+  display: none;
+}
+.main {
+  background-color: green;
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.right {
+  padding-right: 50px;
+  padding-top: 20px;
+}
+h1 {
+  color: #fff;
+  margin-left: 30px;
+}
+.right h6 {
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.input {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+  margin-right: 200px;
+  gap: 20px;
+}
+.tub {
+  color: green;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 15px;
+  width: 80px;
+  outline: none;
+  border: 0;
+}
+.but {
+  margin-top: 40px;
+  margin-left: 260px;
+  background-color: green;
+  outline: none;
+  border: 0;
+  color: #fff;
+  border: #fff 1px solid;
+  padding: 3px 4px;
+}
+.it {
+  background-color: green;
+  outline: none;
+  border: 0;
+  border-bottom: 1px #fff solid;
+  text-align: end;
+}
+.it:hover {
+  background-color: rgb(64, 180, 219);
+}
+.tub:active {
+  background-color: aqua;
+}
+::placeholder {
+  color: #fff;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: #fff;
+  height: 190px;
+}
+.bazar {
+  display: flex;
+  gap: 2px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+  padding-left: 6px;
+  height: 30px;
+}
+.app {
+  display: flex;
+  gap: 2px;
+  width: 150px;
+  background-color: palegreen;
+  align-items: center;
+  padding-left: 6px;
+  height: 30px;
+  color: #fff;
+}
+.apel {
+  display: flex;
+  gap: 2px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+  padding-left: 6px;
+  height: 30px;
+}
+.mike {
+  display: flex;
+  gap: 2px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+  padding-left: 6px;
+  height: 30px;
+}
+.robat {
+  display: flex;
+  gap: 2px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+  padding-left: 6px;
+  height: 30px;
+}
+.h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.online {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.bag {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.food {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.tool {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.rowone {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.taxi {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.car {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.cart {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.servis {
+  width: 40px;
+  height: 40px;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 13px;
+}
+.rowtwo {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pake {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.want {
+  width: 40px;
+  height: 40px;
+  background-color: palegreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 9px;
+}
+.bike {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.motor {
+  width: 40px;
+  height: 40px;
+  background-color: palegreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 8px;
+}
+.rowtree {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.book {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.hotel {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+.ticket {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.air {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 9px;
+}
+.lastpart {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.part {
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 9px;
+}
+.store {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.snappstore {
+  height: 40px;
+  background-color: rgb(248, 14, 248);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.rowfour {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.train {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.trainstation {
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.bus {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.busstop {
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.rowfive {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bime {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.bimee {
+  height: 40px;
+  background-color: rgb(77, 169, 200);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.drug {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.drugstore {
+  height: 40px;
+  background-color: rgb(77, 169, 200);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.doctor {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.moshaver {
+  height: 40px;
+  background-color: rgb(77, 169, 200);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.rowsix {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.club {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.clab {
+  height: 40px;
+  background-color: yellow;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.drive {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.driver {
+  height: 40px;
+  background-color: limegreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.house {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.asbab {
+  height: 40px;
+  background-color: limegreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.rowseven {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.pr {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.prr {
+  background-color: darkblue;
+  height: 40px;
+  width: 45px;
+  border-radius: 10px;
+  text-align: center;
+}
+.package {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.interpackage {
+  height: 40px;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.charge {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  background-color: #fff;
+  height: 80px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px gainsboro;
+  padding-left: 10px;
+}
+.chargee {
+  height: 40px;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-right: 7px;
+}
+.basket {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  justify-content: center;
+  position: relative;
+}
+.order {
+  height: 50px;
+  width: 140px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: green;
+  outline: none;
+  border: 0;
+  border: solid #fff 3px;
+  position: absolute;
+  right: 405px;
+  font-size: larger;
+  margin-top: 20px;
+}
+button :hover {
+  background-color: aqua;
+}
+@media (max-width: 640px) {
+  .ul {
+    display: none;
+  }
+  .berger {
+    display: flex;
+  }
+  .hi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+    padding-right: 5px;
+  }
+  .left {
+    display: none;
+  }
+  .tree {
+    display: none;
+  }
+  .main {
+    margin-top: 0;
+    height: 200px;
+    gap: 10px;
+  }
+  .right h1 {
+    font-size: large;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right h6 {
+    margin-top: 15px;
+    margin-left: 65px;
+  }
+  .input {
+    display: none;
+  }
+  .but {
+    width: 100%;
+    margin-left: 40px;
+    color: black;
+    background-color: antiquewhite;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .nav {
+    width: 100%;
+  }
+  .section {
+    display: none;
+  }
+  .h1 {
+    margin: 10px 35px 10px 0px;
+  }
+  .cont p {
+    display: none;
+  }
+  .online {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  h3 {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    padding-bottom: 5px;
+  }
+  .food {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .taxi {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .cart {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .bike {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .pake {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .rowone {
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowtwo {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowtree {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowfour {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowfive {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowsix {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .rowseven {
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .book {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .ticket {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .lastpart {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .store {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .train {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .bus {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .bime {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .drug {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .doctor {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .club {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .house {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .drive {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .pr {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .package {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .charge {
+    flex-direction: column;
+    width: 170px;
+    height: 90px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .bag {
+    margin-top: 3px;
+  }
+  .tool {
+    margin-top: 3px;
+  }
+  .car {
+    margin-top: 3px;
+  }
+  .servis {
+    margin-top: 3px;
+  }
+  .want {
+    margin-top: 3px;
+  }
+  .motor {
+    margin-top: 3px;
+  }
+  .air {
+    margin-top: 3px;
+  }
+  .part {
+    margin-top: 3px;
+  }
+  .hotel {
+    margin-top: 3px;
+  }
+  .snappstore {
+    margin-top: 3px;
+  }
+  .busstop {
+    margin-top: 3px;
+  }
+  .trainstation {
+    margin-top: 3px;
+  }
+  .bimee {
+    margin-top: 3px;
+  }
+  .drugstore {
+    margin-top: 3px;
+  }
+  .moshaver {
+    margin-top: 3px;
+  }
+  .clab {
+    margin-top: 3px;
+  }
+  .asbab {
+    margin-top: 3px;
+  }
+  .driver {
+    margin-top: 3px;
+  }
+  .prr {
+    margin-top: 3px;
+  }
+  .interpackage {
+    margin-top: 3px;
+  }
+  .chargee {
+    margin-top: 3px;
+  }
+
+  .basket {
+    width: 100%;
+    height: 130px;
+  }
+  .basket img {
+    height: 100px;
+    width: 90%;
+  }
+  .order {
+    width: 90px;
+    height: 30px;
+    font-size: small;
+    border: 2px solid #fff;
+    right: 100px;
+    top: 50px;
+  }
+  .engoy {
+    display: none;
+  }
+  .leftright {
+    flex-direction: column-reverse;
+  }
+  .secondleft {
+    margin: 0px 20px;
+  }
+  .item {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .coinsvg {
+    width: 100%;
+  }
+  .w {
+    flex-wrap: wrap;
+  }
+  .coin {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#engoy {
+  position: absolute;
+  top: 40px;
+  width: 150px;
+  right: 400px;
+  background-color: #fff;
+  height: 130px;
+  border-radius: 15px;
+  color: darkblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px grey;
+}
+.need {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.leftright {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.item {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.coinsvg {
+  background-color: lightblue;
+  width: 250px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.w {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.navgan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.reg button {
+  color: #fff;
+  background-color: rgb(77, 209, 77);
+  outline: none;
+  border: 0;
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.reg :hover {
+  background-color: gray;
+}
